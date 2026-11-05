@@ -12,7 +12,9 @@
   <ellipse cx="230" cy="140" rx="110" ry="40" transform="rotate(-28 230 140)" fill="none" stroke="#B6A78D" stroke-opacity=".5" stroke-width="1"/>
   <circle cx="230" cy="140" r="64" fill="#EAE5DC"/>
   <circle cx="254" cy="123" r="60" fill="#050505"/>
-  <circle cx="327" cy="88" r="4" fill="#EAE5DC"/>
+  <circle cx="0" cy="0" r="4" fill="#EAE5DC">
+    <animateMotion begin="0s" dur="32s" calcMode="paced" repeatCount="indefinite" path="M 327.06 88.38 A 110 40 -28 1 1 132.94 191.62 A 110 40 -28 1 1 327.06 88.38"/>
+  </circle>
   <text x="425" y="132" fill="#EAE5DC" font-family="Arial, Helvetica, sans-serif" font-size="45" font-weight="500" letter-spacing="8">11 OCTOBER</text>
   <text x="428" y="179" fill="#C9C1B5" font-family="Arial, Helvetica, sans-serif" font-size="25" letter-spacing="2">AN OPEN ENGINEERING COLLECTIVE</text>
 </svg>
