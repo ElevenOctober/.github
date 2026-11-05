@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="190" viewBox="0 0 880 190" role="img" aria-labelledby="title desc">
+  <title id="title">11 October — An Open Engineering Collective</title>
+  <desc id="desc">A warm ivory eclipse and orbit mark beside the words 11 October and An Open Engineering Collective.</desc>
+  <defs>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#EAE5DC" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#EAE5DC" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="880" height="190" fill="#050505"/>
+  <circle cx="108" cy="95" r="83" fill="url(#glow)"/>
+  <ellipse cx="108" cy="95" rx="72" ry="27" transform="rotate(-28 108 95)" fill="none" stroke="#B6A78D" stroke-opacity=".5" stroke-width="1"/>
+  <circle cx="108" cy="95" r="42" fill="#EAE5DC"/>
+  <circle cx="123" cy="83" r="40" fill="#050505"/>
+  <circle cx="172" cy="61" r="3" fill="#EAE5DC"/>
+  <text x="238" y="91" fill="#EAE5DC" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="500" letter-spacing="7">11 OCTOBER</text>
+  <text x="241" y="128" fill="#C9C1B5" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="3">AN OPEN ENGINEERING COLLECTIVE</text>
+</svg>

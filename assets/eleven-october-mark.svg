@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192" role="img" aria-labelledby="title desc">
+  <title id="title">11 October eclipse mark</title>
+  <desc id="desc">A warm ivory crescent eclipse crossed by a thin orbit with one small orbiting point on a near-black field.</desc>
+  <defs>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#EAE5DC" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#EAE5DC" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="192" height="192" fill="#050505"/>
+  <circle cx="96" cy="96" r="82" fill="url(#glow)"/>
+  <ellipse cx="96" cy="96" rx="73" ry="28" transform="rotate(-28 96 96)" fill="none" stroke="#B6A78D" stroke-opacity=".5" stroke-width="1"/>
+  <circle cx="96" cy="96" r="43" fill="#EAE5DC"/>
+  <circle cx="111" cy="84" r="41" fill="#050505"/>
+  <circle cx="160" cy="62" r="3" fill="#EAE5DC"/>
+</svg>
