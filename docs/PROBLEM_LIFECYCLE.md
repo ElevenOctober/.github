@@ -4,20 +4,20 @@ Official problem statements begin with a real external source. An idea without a
 
 ## States
 
-1. **RECEIVED** — The report is public in the issue tracker. Receipt does not imply acceptance.
-2. **VERIFYING** — Maintainers check the source, evidence, context, permissions, and whether the issue is already addressed.
-3. **ACCEPTED** — The problem meets the acceptance criteria and is assigned the next Problem ID, such as 11O-001. Acceptance starts investigation; it does not promise a particular solution.
-4. **INVESTIGATING** — Contributors clarify requirements, constraints, prior work, risks, and a measurable validation plan.
-5. **BUILDING** — A prototype or implementation is underway with decisions and source material recorded.
-6. **TESTING** — The proposed improvement is evaluated against its stated conditions and measurements.
-7. **SOLVED** — Evidence supports a useful result within the documented scope. Remaining limitations are explicit.
-8. **PUBLISHED** — The repository, reproduction material, attribution, and Open Engineering Article or Engineering Note are public.
+1. **RECEIVED:** The report is public in the issue tracker. Receipt does not imply acceptance.
+2. **VERIFYING:** Maintainers check the source, evidence, context, permissions, and whether the issue is already addressed.
+3. **ACCEPTED:** The problem meets the acceptance criteria and is assigned the next Problem ID, such as 11O-001. Acceptance starts investigation; it does not promise a particular solution.
+4. **INVESTIGATING:** Contributors clarify requirements, constraints, prior work, risks, and a measurable validation plan.
+5. **BUILDING:** A prototype or implementation is underway with decisions and source material recorded.
+6. **TESTING:** The proposed improvement is evaluated against its stated conditions and measurements.
+7. **SOLVED:** Evidence supports a useful result within the documented scope. Remaining limitations are explicit.
+8. **PUBLISHED:** The repository, reproduction material, attribution, and Open Engineering Article or Engineering Note are public.
 
 ### Other outcomes
 
-- **DECLINED** — The report cannot or should not be accepted. Give a brief reason that does not expose private details.
-- **ARCHIVED** — Work is closed because the need has ended, the report is superseded, or the effort is no longer practical.
-- **BLOCKED** — Work cannot proceed because a named dependency, permission, resource, or safety question is unresolved. Record what would unblock it.
+- **DECLINED:** The report cannot or should not be accepted. Give a brief reason that does not expose private details.
+- **ARCHIVED:** Work is closed because the need has ended, the report is superseded, or the effort is no longer practical.
+- **BLOCKED:** Work cannot proceed because a named dependency, permission, resource, or safety question is unresolved. Record what would unblock it.
 
 A blocked problem may return to investigation or be archived. A declined or archived report does not receive a Problem ID unless it had already been accepted; retain its history and provenance.
 

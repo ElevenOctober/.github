@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../assets/eleven-october-banner.svg" alt="11 October — An Open Engineering Collective" width="100%" />
+  <img src="../assets/eleven-october-banner.svg" alt="11 October, An Open Engineering Collective" width="100%" />
 </p>
 
 # 11 October
@@ -12,11 +12,11 @@
 
 ## How we work
 
-1. **01 FIND** — Start with a problem reported by a real person or source.
-2. **02 VERIFY** — Check the evidence, context, and constraints.
-3. **03 ENGINEER** — Build the smallest useful solution.
-4. **04 TEST** — Measure what works, what fails, and under which conditions.
-5. **05 OPEN** — Share the solution, reproducible materials, and an engineering article.
+1. **01 FIND:** Start with a problem reported by a real person or source.
+2. **02 VERIFY:** Check the evidence, context, and constraints.
+3. **03 ENGINEER:** Build the smallest useful solution.
+4. **04 TEST:** Measure what works, what fails, and under which conditions.
+5. **05 OPEN:** Share the solution, reproducible materials, and an engineering article.
 
 ## Areas of work
 
@@ -35,7 +35,7 @@ A submission is reviewed before it becomes an official problem. Existing organiz
 - [Submit a Problem](https://github.com/ElevenOctober/.github/issues/new?template=problem-submission.yml)
 - [Explore Problems](https://github.com/ElevenOctober/.github/issues)
 - [Contribute](https://github.com/ElevenOctober/.github/blob/main/CONTRIBUTING.md)
-- **Read Open Engineering Articles** — coming soon; see the [article format](https://github.com/ElevenOctober/.github/blob/main/docs/OPEN_ENGINEERING_ARTICLES.md)
+- **Read Open Engineering Articles:** coming soon; see the [article format](https://github.com/ElevenOctober/.github/blob/main/docs/OPEN_ENGINEERING_ARTICLES.md)
 - [View Projects](https://github.com/orgs/ElevenOctober/repositories)
 
 When a problem is accepted, its source and verification will be recorded. Requester attribution is deliberate, and private information does not belong in public issues or articles.

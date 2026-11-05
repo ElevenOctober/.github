@@ -4,13 +4,13 @@
 
 ## Responsibilities
 
-- **Contributor** — makes or reviews a useful change.
-- **Maintainer** — cares for a repository, reviews contributions, and keeps project work safe and understandable.
-- **Problem Lead** — coordinates investigation and decisions for an accepted Problem ID.
-- **Reviewer** — checks technical reasoning, evidence, safety, or reproducibility.
-- **Article Contributor** — helps document the investigation and results.
-- **Requester** — identifies the original problem or provides context; this does not create an obligation to join or approve a solution.
-- **Tester** — reproduces a procedure or evaluates a prototype and records conditions and results.
+- **Contributor:** makes or reviews a useful change.
+- **Maintainer:** cares for a repository, reviews contributions, and keeps project work safe and understandable.
+- **Problem Lead:** coordinates investigation and decisions for an accepted Problem ID.
+- **Reviewer:** checks technical reasoning, evidence, safety, or reproducibility.
+- **Article Contributor:** helps document the investigation and results.
+- **Requester:** identifies the original problem or provides context; this does not create an obligation to join or approve a solution.
+- **Tester:** reproduces a procedure or evaluates a prototype and records conditions and results.
 
 One person may hold more than one responsibility. Contributors do not need an organization title to do useful work.
 

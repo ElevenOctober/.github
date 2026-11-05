@@ -12,6 +12,7 @@ No project, problem, article, contributor count, or impact claim is seeded here.
 
 These settings are not controlled by repository files:
 
+- In **Organization Settings → Profile**, use the name **11 October** and description **An Open Engineering Collective. Real problems. Open engineering.** Leave the website blank until an official site is confirmed. Publish a contact email only if it is a dedicated address the organization intends to make public.
 - Enable **Discussions** in the repository’s Settings → General → Features only when maintainers can monitor it. Suggested categories: General, Engineering questions, and Announcements. The public profile does not link to Discussions yet.
 - Enable **Private vulnerability reporting** in the security settings of each public project repository where GitHub offers it. Follow [SECURITY.md](SECURITY.md) for the fallback process.
 - Publish a monitored private contact route for sensitive problem intake and conduct reports. Until one exists, do not share identity-sensitive or confidential details in public issues.
