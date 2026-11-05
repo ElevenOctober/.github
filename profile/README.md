@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../assets/eleven-october-banner.svg" alt="11 October, An Open Engineering Collective" width="100%" />
+  <img src="https://raw.githubusercontent.com/ElevenOctober/.github/main/assets/eleven-october-banner.svg" alt="11 October, An Open Engineering Collective" width="100%" />
 </p>
 
 # 11 October
