@@ -1,0 +1,37 @@
+name: Documentation
+description: Report a documentation problem or propose a specific improvement.
+title: "[Documentation] "
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Page or section
+      description: Link the page or name the file and section.
+      placeholder: URL or file path and heading
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What is unclear or incorrect?
+      description: Explain the problem and its effect on readers.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested change
+      description: Propose wording, a correction, or missing information.
+    validations:
+      required: true
+  - type: input
+    id: problem-id
+    attributes:
+      label: Related Problem ID
+      description: Add an ID if this documentation belongs to an accepted problem; otherwise leave blank.
+      placeholder: 11O-001 or blank
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Link reliable sources that support the proposed correction.

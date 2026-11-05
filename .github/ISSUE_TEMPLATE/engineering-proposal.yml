@@ -1,0 +1,87 @@
+name: Engineering proposal
+description: Propose an approach to an already accepted 11 October problem.
+title: "[Proposal] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Proposals must relate to an accepted problem with an assigned Problem ID. This form is not for unrelated project ideas.
+  - type: input
+    id: problem-id
+    attributes:
+      label: Problem ID
+      description: Use an accepted identifier such as 11O-001.
+      placeholder: 11O-001
+    validations:
+      required: true
+  - type: textarea
+    id: approach
+    attributes:
+      label: Proposed approach
+      description: Describe the mechanism or workflow you propose.
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why this approach?
+      description: Connect the approach to the problem’s evidence, requirements, and constraints.
+    validations:
+      required: true
+  - type: textarea
+    id: prior-work
+    attributes:
+      label: Existing work reviewed
+      description: Link related solutions, projects, papers, datasheets, or standards.
+    validations:
+      required: true
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Hardware requirements
+      description: Components, tools, interfaces, and any physical safety considerations. Write “None” if not applicable.
+    validations:
+      required: true
+  - type: textarea
+    id: software
+    attributes:
+      label: Software requirements
+      description: Firmware, software, libraries, platforms, and licenses. Write “None” if not applicable.
+    validations:
+      required: true
+  - type: input
+    id: cost
+    attributes:
+      label: Estimated cost
+      description: Include currency, quantity, and assumptions, or explain what is unknown.
+      placeholder: Estimate and assumptions
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Major risks
+      description: Include technical, safety, privacy, supply, and licensing risks where relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: testing
+    attributes:
+      label: Testing strategy
+      description: Explain what will be measured and how improvement will be judged.
+    validations:
+      required: true
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: Expected deliverables
+      description: List the files, prototype, documentation, or measurements this approach would produce.
+    validations:
+      required: true
+  - type: textarea
+    id: limitations
+    attributes:
+      label: Possible limitations
+      description: State known assumptions, failure modes, and out-of-scope conditions.
+    validations:
+      required: true

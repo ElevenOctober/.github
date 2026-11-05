@@ -1,0 +1,149 @@
+name: Problem submission
+description: Submit a real engineering problem for review, with its source and context.
+title: "[Problem] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A submission is not an acceptance. Maintainers review its provenance, evidence, context, scope, safety, and a way to validate improvement.
+        Reports may be RECEIVED, VERIFYING, ACCEPTED, DECLINED, or ARCHIVED.
+        This issue is public, and GitHub displays the issue author’s username. Attribution preference below applies to future project documentation, not GitHub’s issue display.
+        Do not submit passwords, private keys, confidential or proprietary material, personal medical records, sensitive personal data, or material you do not have permission to share.
+        If you need to submit privately or anonymously, do not use this public form. Ask a maintainer through a private channel you already trust for a safe intake route; no dedicated private intake is currently published.
+  - type: input
+    id: problem-title
+    attributes:
+      label: Problem title
+      description: Give the observed problem a short, specific name.
+      placeholder: A concise description of the problem
+    validations:
+      required: true
+  - type: textarea
+    id: what-is-happening
+    attributes:
+      label: What is happening?
+      description: Describe the problem as it occurs. Separate observed facts from assumptions.
+      placeholder: What happens, and what should happen instead?
+    validations:
+      required: true
+  - type: textarea
+    id: who-is-affected
+    attributes:
+      label: Who experiences this problem?
+      description: Describe the people or community affected. Do not include private contact details.
+    validations:
+      required: true
+  - type: textarea
+    id: where-it-occurs
+    attributes:
+      label: Where does it occur?
+      description: Describe the environment, device, workflow, or scenario.
+    validations:
+      required: true
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does it occur?
+      options:
+        - Continuous or repeated
+        - Daily
+        - Weekly
+        - Monthly
+        - Occasional
+        - One-time
+        - Unknown
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Why does this matter?
+      description: Describe the practical impact and who bears it.
+    validations:
+      required: true
+  - type: textarea
+    id: existing-solutions
+    attributes:
+      label: Existing solutions
+      description: What has been tried or reviewed? Write “None known” if appropriate.
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints
+      description: Include relevant budget, size, power, environment, connectivity, privacy, safety, or compatibility limits.
+  - type: textarea
+    id: desired-outcome
+    attributes:
+      label: Desired outcome
+      description: What measurable or observable change would count as useful?
+    validations:
+      required: true
+  - type: dropdown
+    id: source-type
+    attributes:
+      label: Source type
+      description: Select the kind of external source where this problem originated.
+      options:
+        - Individual or end user
+        - Community or forum
+        - Open-source project or maintainer
+        - Laboratory or university
+        - NGO or public institution
+        - Organization
+        - Other external source
+        - Prefer not to identify publicly
+    validations:
+      required: true
+  - type: textarea
+    id: source-context
+    attributes:
+      label: Original source and context
+      description: Name the person, community, project, or organization when public attribution is appropriate. Otherwise describe the source without exposing private identity. AI-generated ideas are not external submissions.
+      placeholder: Public source name or a non-sensitive description of how the source can be verified
+    validations:
+      required: true
+  - type: input
+    id: source-url
+    attributes:
+      label: Original URL or reference
+      description: Link to the original report, discussion, project, paper, or other public evidence when available.
+      placeholder: https://
+  - type: input
+    id: date-identified
+    attributes:
+      label: When was the problem identified?
+      description: Use a date or approximate period if known. The issue creation date records when it was submitted here.
+  - type: textarea
+    id: supporting-evidence
+    attributes:
+      label: Supporting material or observations
+      description: Add public links, measurements, or a non-sensitive account of what was observed. Do not upload private or restricted material.
+    validations:
+      required: true
+  - type: upload
+    id: supporting-files
+    attributes:
+      label: Optional supporting files
+      description: Upload only material you have permission to share publicly. Do not include private, restricted, or sensitive information.
+  - type: dropdown
+    id: attribution
+    attributes:
+      label: Attribution preference for future public project material
+      description: This does not hide your GitHub username on this public issue.
+      options:
+        - Publicly attribute me or my community, with confirmation before publication
+        - Attribute an organization or community only, with permission
+        - Do not name me in future public project material
+    validations:
+      required: true
+  - type: checkboxes
+    id: acknowledgements
+    attributes:
+      label: Acknowledgements
+      options:
+        - label: I understand that accepted work may be publicly documented and released under an appropriate open license unless explicitly agreed otherwise.
+          required: true
+        - label: I have not included secrets, sensitive personal information, or material I do not have permission to share, and I understand this issue is public.
+          required: true
